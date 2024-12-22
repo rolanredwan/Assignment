@@ -7,13 +7,13 @@ namespace Assignment18_Part1
     public class GameContainer<T>
     {
         public T item;
-        public  T SetItem<T>(T item)
+        public void SetItem(T item)
         {
-            return item = item;
+            this.item = item;
         }
-        public  T GetItem<T>(T item)
+        public T GetItem()
         {
-            return SetItem<T>(item);
+            return this.item;
         }
 
     }

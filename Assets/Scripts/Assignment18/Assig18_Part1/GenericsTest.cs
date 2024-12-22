@@ -7,7 +7,8 @@ public class Genericstest : MonoBehaviour
     void Start()
     {
         GameContainer<string> gc = new GameContainer<string>();
-        Debug.Log(gc.GetItem("Sorted ITem : " + gc.SetItem("Healing Potion")));
-        Debug.Log(GameUtils.DescribeItem(gc.GetItem(gc.SetItem("Healing Potion"))));
+        gc.SetItem("Healing Potion");
+        Debug.Log("Sorted Item : " + gc.GetItem());
+        Debug.Log(GameUtils.DescribeItem(gc.GetItem()));
     }
 }

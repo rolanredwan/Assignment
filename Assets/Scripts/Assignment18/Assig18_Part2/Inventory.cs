@@ -6,7 +6,7 @@ namespace Assignment18_Part2
 {
     public class Inventory
     {
-        private List<string> itemNames;
+        private List<string> itemNames = new List<string>() ;
         public Inventory()
         {
             this.itemNames = new List<string>();
