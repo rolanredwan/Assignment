@@ -54,7 +54,7 @@ namespace Assignment29
         }
         void OnDisable()
         {
-            print("GameObject Disable!");
+            print("GameObject Disable!!");
         }
 
     }
